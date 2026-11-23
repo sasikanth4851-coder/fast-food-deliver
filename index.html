@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#17130f">
+  <meta name="description" content="Spice & Soul — authentic Indian cuisine, thoughtfully prepared with fresh ingredients.">
+  <title>Spice & Soul | A Taste Worth Remembering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">A little extra flavour in every moment <span>✦</span> Open daily · 11 AM – 11 PM</div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Spice and Soul home">
+      <span class="brand-mark">✦</span><span>SPICE <i>&</i> SOUL<small>INDIAN KITCHEN</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a><a href="#menu">Our Menu</a><a href="#story">Our Story</a><a href="#offers">Offers</a><a href="#reviews">Reviews</a>
+      <a class="nav-cta" href="#contact">Find a Table <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> A CELEBRATION OF INDIAN FLAVOUR</p>
+        <h1>Good food.<br><em>Great stories.</em></h1>
+        <p class="hero-copy">From the first fragrant spice to the final bite, discover food made to bring people together.</p>
+        <div class="hero-actions"><a class="btn btn-gold" href="#menu">Explore the menu <span>↗</span></a><a class="text-link" href="#story">Discover our story <span>→</span></a></div>
+        <div class="hero-note"><span class="note-line"></span><span>FRESHLY PREPARED · ALWAYS HEARTFELT</span></div>
+      </div>
+      <div class="hero-side-label">MADE WITH LOVE, SERVED WITH SOUL</div>
+      <div class="hero-bottom"><span>01 / 04</span><span class="scroll-cue">SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="story">
+      <div class="intro-image">
+        <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1000&q=85" alt="A table filled with colourful Indian dishes" loading="lazy">
+        <div class="image-stamp"><span>✦</span><b>MADE FRESH</b><small>EVERY SINGLE DAY</small></div>
+      </div>
+      <div class="intro-copy">
+        <p class="eyebrow dark"><span></span> OUR PHILOSOPHY</p>
+        <h2>Tradition on the plate.<br><em>Joy at the table.</em></h2>
+        <p class="muted">We believe the best meals are more than just food. They are shared moments, familiar aromas and new memories. Our kitchen brings timeless Indian favourites together with a fresh, thoughtful touch.</p>
+        <div class="values">
+          <div><span>01</span><b>Fresh ingredients</b><small>Picked with care, prepared daily.</small></div>
+          <div><span>02</span><b>Honest flavours</b><small>Recipes inspired by tradition.</small></div>
+        </div>
+        <a class="under-link" href="#contact">Come say hello <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="section-heading">
+        <div><p class="eyebrow dark"><span></span> FROM OUR KITCHEN</p><h2>A menu to <em>fall for.</em></h2></div>
+        <p class="muted heading-note">Comforting classics, bold favourites and a little something for every craving.</p>
+      </div>
+      <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+        <button class="tab active" data-category="all" role="tab" aria-selected="true">All favourites</button>
+        <button class="tab" data-category="starters" role="tab" aria-selected="false">Starters</button>
+        <button class="tab" data-category="mains" role="tab" aria-selected="false">Main course</button>
+        <button class="tab" data-category="breads" role="tab" aria-selected="false">Breads</button>
+        <button class="tab" data-category="desserts" role="tab" aria-selected="false">Desserts</button>
+      </div>
+      <div class="menu-grid" id="menuGrid">
+        <article class="food-card" data-category="mains">
+          <div class="food-image"><img src="https://images.unsplash.com/photo-1563379091339-03246963d96c?auto=format&fit=crop&w=800&q=85" alt="Chicken biryani" loading="lazy"><span class="food-tag">CHEF'S PICK</span></div>
+          <div class="food-info"><div><h3>Chicken Dum Biryani</h3><p>Fragrant basmati, tender chicken, slow-cooked spices.</p></div><strong>₹249</strong></div>
+        </article>
+        <article class="food-card" data-category="mains">
+          <div class="food-image"><img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=800&q=85" alt="Paneer curry" loading="lazy"></div>
+          <div class="food-info"><div><h3>Paneer Butter Masala</h3><p>Soft paneer in a rich, silky tomato gravy.</p></div><strong>₹199</strong></div>
+        </article>
+        <article class="food-card" data-category="starters">
+          <div class="food-image"><img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=85" alt="Crispy samosas" loading="lazy"></div>
+          <div class="food-info"><div><h3>Golden Samosa</h3><p>Crisp pastry with a warmly spiced potato filling.</p></div><strong>₹89</strong></div>
+        </article>
+        <article class="food-card" data-category="mains">
+          <div class="food-image"><img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=85" alt="Butter chicken curry" loading="lazy"></div>
+          <div class="food-info"><div><h3>Classic Butter Chicken</h3><p>Tandoor-kissed chicken in our signature creamy sauce.</p></div><strong>₹279</strong></div>
+        </article>
+        <article class="food-card" data-category="breads">
+          <div class="food-image"><img src="https://images.unsplash.com/photo-1600628422019-7e2e6e6f9f3e?auto=format&fit=crop&w=800&q=85" alt="Fresh naan bread" loading="lazy"></div>
+          <div class="food-info"><div><h3>Butter Garlic Naan</h3><p>Soft, oven-baked bread brushed with garlic butter.</p></div><strong>₹59</strong></div>
+        </article>
+        <article class="food-card" data-category="desserts">
+          <div class="food-image"><img src="https://images.unsplash.com/photo-1589119908995-c6837fa14848?auto=format&fit=crop&w=800&q=85" alt="Indian gulab jamun dessert" loading="lazy"></div>
+          <div class="food-info"><div><h3>Gulab Jamun</h3><p>Warm, syrup-soaked bites with a hint of cardamom.</p></div><strong>₹99</strong></div>
+        </article>
+      </div>
+      <p class="menu-disclaimer">Menu and prices are sample content. Please confirm availability with the restaurant.</p>
+      <div class="center"><a class="btn btn-dark" href="#contact">Plan your visit <span>↗</span></a></div>
+    </section>
+
+    <section class="offer-section" id="offers">
+      <div class="offer-photo"></div>
+      <div class="offer-content">
+        <p class="eyebrow"><span></span> A LITTLE TREAT FROM US</p>
+        <p class="offer-kicker">GOOD TIMES, BETTER BITES</p>
+        <h2>Your first feast<br>comes with <em>20% off.</em></h2>
+        <p>Make your first visit a little more special. Enjoy 20% off your first order with our welcome offer.</p>
+        <div class="coupon"><span><small>USE THIS CODE</small><b>WELCOME20</b></span><button id="copyCode" type="button">COPY CODE ⧉</button></div>
+        <small class="offer-terms">Sample promotion · Terms and conditions may apply.</small>
+      </div>
+    </section>
+
+    <section class="reviews section-pad" id="reviews">
+      <div class="section-heading">
+        <div><p class="eyebrow dark"><span></span> KIND WORDS</p><h2>Good food leaves<br><em>good memories.</em></h2></div>
+        <div class="review-score"><strong>4.9<span>/5</span></strong><div class="stars">★★★★★</div><small>Sample rating · Guest favourites</small></div>
+      </div>
+      <div class="review-grid">
+        <article class="review-card"><div class="stars">★★★★★</div><p>“The biryani was full of flavour and the atmosphere made the whole evening feel special. Can't wait to come back!”</p><div class="review-person"><span>AR</span><div><b>Ananya R.</b><small>Food lover</small></div></div></article>
+        <article class="review-card featured"><div class="stars">★★★★★</div><p>“A lovely place to share a meal. The service was warm, the food arrived fresh and every dish was delicious.”</p><div class="review-person"><span>VK</span><div><b>Vikram K.</b><small>Happy guest</small></div></div></article>
+        <article class="review-card"><div class="stars">★★★★★</div><p>“Beautiful flavours, generous portions and a menu with something for everyone. A new favourite spot!”</p><div class="review-person"><span>SP</span><div><b>Sneha P.</b><small>Regular guest</small></div></div></article>
+      </div>
+      <p class="menu-disclaimer">Testimonials and rating shown are illustrative placeholders, not verified customer reviews.</p>
+    </section>
+
+    <section class="visit-section section-pad" id="contact">
+      <div class="visit-copy">
+        <p class="eyebrow dark"><span></span> COME ON IN</p>
+        <h2>Your table<br>is <em>waiting.</em></h2>
+        <p class="muted">Whether it's a quick lunch, a family dinner or a celebration, we'd love to welcome you.</p>
+        <div class="contact-list">
+          <div><span class="contact-icon">⌖</span><p><b>Find us</b><small>Vijayawada, Andhra Pradesh, India<br><em>Replace with your restaurant's full address</em></small></p></div>
+          <div><span class="contact-icon">☎</span><p><b>Call us</b><small><a href="tel:+919876543210">+91 98765 43210</a> <em>(sample number)</em></small></p></div>
+          <div><span class="contact-icon">◷</span><p><b>Opening hours</b><small>Every day · 11:00 AM – 11:00 PM</small></p></div>
+        </div>
+        <a class="btn btn-dark" href="https://www.google.com/maps/search/?api=1&query=Vijayawada%2C%20Andhra%20Pradesh" target="_blank" rel="noopener">Get directions <span>↗</span></a>
+      </div>
+      <div class="map-panel">
+        <iframe title="Map showing Vijayawada" src="https://www.google.com/maps?q=Vijayawada%2C%20Andhra%20Pradesh&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map-caption"><span>✦</span><div><b>SPICE & SOUL</b><small>Vijayawada, Andhra Pradesh</small></div></div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <p class="eyebrow"><span></span> STAY IN THE LOOP</p>
+      <h2>A little more <em>spice</em> in your inbox.</h2>
+      <p>Hear about seasonal specials, fresh menus and moments worth sharing.</p>
+      <form id="newsletterForm" class="newsletter-form"><label class="sr-only" for="email">Email address</label><input id="email" type="email" placeholder="Your email address" required><button type="submit">Sign me up ↗</button></form>
+      <small id="formMessage" aria-live="polite">No spam. Just the good stuff.</small>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#top"><span class="brand-mark">✦</span><span>SPICE <i>&</i> SOUL<small>INDIAN KITCHEN</small></span></a>
+    <p>Made with care. Shared with joy.</p>
+    <div class="footer-links"><a href="#menu">Menu</a><a href="#offers">Offers</a><a href="#contact">Contact</a><a href="#top">Back to top ↑</a></div>
+    <small>© <span id="year"></span> Spice & Soul. All rights reserved.</small>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
